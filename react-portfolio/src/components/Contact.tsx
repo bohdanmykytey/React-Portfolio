@@ -74,6 +74,7 @@ function Contact(mode: modeProps) {
             <div className="form-flex">
               <TextField
                 required
+                className="name"
                 id="outlined-basic"
                 label="Your Name"
                 placeholder="What's your name?"
@@ -85,6 +86,7 @@ function Contact(mode: modeProps) {
                 helperText={nameError ? "Please enter your name" : ""}
               />
               <TextField
+                className="email"
                 required
                 id="outlined-basic"
                 label="Email / Phone"
