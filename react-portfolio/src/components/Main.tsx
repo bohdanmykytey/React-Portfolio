@@ -20,8 +20,7 @@ function Main() {
               <GitHubIcon />
             </a>
             <a
-              href="https://www.linkedin.com/in/bohdanmykytey/
-"
+              href="https://www.linkedin.com/in/bohdanmykytey/"
               target="_blank"
               rel="noreferrer"
             >
@@ -30,7 +29,8 @@ function Main() {
           </div>
           <h1>Bohdan Mykytey</h1>
           <p>
-            Full Stack Engineer with a Focus on User Experience and Retention
+            Senior Frontend & Full Stack Engineer — React, TypeScript &
+            AI-Native Development
           </p>
 
           <div className="mobile_social_icons">
@@ -42,7 +42,7 @@ function Main() {
               <GitHubIcon />
             </a>
             <a
-              href="https://www.linkedin.com/in/yujisato/"
+              href="https://www.linkedin.com/in/bohdanmykytey/"
               target="_blank"
               rel="noreferrer"
             >

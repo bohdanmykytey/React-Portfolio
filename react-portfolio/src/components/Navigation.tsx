@@ -51,13 +51,9 @@ function Navigation({parentToChild, modeChange}: any) {
   }, []);
 
   const downloadResume = () => {
-    // You can replace this URL with the path to your resume file
-    const resumeUrl = "Bohdan Mykytey - Resume.doc";
-
-    // Create an anchor element
     const link = document.createElement("a");
-    link.href = resumeUrl;
-    link.download = "react-portfolio/public/Bohdan Mykytey - Resume.doc";
+    link.href = `${process.env.PUBLIC_URL}/Bohdan Mykytey Resume.docx`;
+    link.download = "Bohdan Mykytey Resume.docx";
     link.click();
   };
 

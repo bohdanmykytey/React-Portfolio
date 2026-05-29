@@ -19,7 +19,25 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{background: "white", color: "rgb(39, 40, 34)"}}
             contentArrowStyle={{borderRight: "7px solid  white"}}
-            date="2022 - 2024"
+            date="2025 - Present"
+            iconStyle={{background: "#5000ca", color: "rgb(39, 40, 34)"}}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Infosys Public Services
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Hartford, CT - Hybrid
+            </h4>
+            <p>
+              Technical Team Lead / Software Engineer — owning core React &
+              TypeScript product surfaces end-to-end and driving AI-assisted
+              development across the team.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date="2022 - 2025"
             iconStyle={{background: "#5000ca", color: "rgb(39, 40, 34)"}}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
@@ -28,8 +46,9 @@ function Timeline() {
               New York, NY - Remote
             </h4>
             <p>
-              Full-stack Web Development, User Experience Optimization & User
-              Retention Specialist.
+              User Retention — Full Stack Software Engineer across The Wall
+              Street Journal, Barron's & MarketWatch, driving data-driven UI
+              enhancements for millions of subscribers.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement

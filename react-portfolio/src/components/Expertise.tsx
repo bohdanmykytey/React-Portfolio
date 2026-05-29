@@ -1,7 +1,8 @@
 import React from "react";
 import "@fortawesome/free-regular-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faReact, faAws, faJs} from "@fortawesome/free-brands-svg-icons";
+import {faReact, faAws} from "@fortawesome/free-brands-svg-icons";
+import {faRobot} from "@fortawesome/free-solid-svg-icons";
 import Chip from "@mui/material/Chip";
 import "../assets/styles/Expertise.scss";
 
@@ -13,28 +14,34 @@ const labelsFirst = [
   "CSS3",
   "Node",
   "ExpressJS",
+  "GraphQL",
   "Python",
   "FastAPI",
   "SQL",
   "C#",
   "ASP .Net Core",
-  "Kubernetes",
-  "AWS",
-  "Node-Red",
-  "Postman",
+  "REST APIs",
 ];
 
 const labelsSecond = [
-  "Git",
-  "GitHub Actions",
-  "Docker",
-  "AWS",
-  "Linux",
-  "Pandas",
+  "Anthropic Claude",
+  "Coding Agents",
+  "Prompt Engineering",
+  "Automated Testing",
+  "Jest",
   "Selenium",
 ];
 
-const labelsThird = ["Node-Red", "JavaScript", "Selenium"];
+const labelsThird = [
+  "AWS",
+  "GitHub Actions",
+  "CI/CD",
+  "Docker",
+  "Kubernetes",
+  "CloudWatch",
+  "Grafana",
+  "Git",
+];
 
 function Expertise() {
   return (
@@ -46,11 +53,12 @@ function Expertise() {
             <FontAwesomeIcon icon={faReact} size="3x" />
             <h3>Full Stack Web Development</h3>
             <p>
-              I have built a diverse array of web applications from scratch
-              using modern technologies such as React and C# ASP .Net, Node &
-              Python with FastAPI. I have a strong proficiency in the Frontend
-              Development along with building custom Api's to support user
-              facing applications.
+              I build and own production web applications end-to-end with React
+              and TypeScript on the front end, backed by Node, Express, and
+              Python/FastAPI services. From custom APIs to polished, responsive
+              UIs, I've shipped scalable software for high-traffic platforms —
+              including financial products at Dow Jones and enterprise systems at
+              Infosys Public Services.
             </p>
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>
@@ -61,12 +69,15 @@ function Expertise() {
           </div>
 
           <div className="skill">
-            <FontAwesomeIcon icon={faAws} size="3x" />
-            <h3>DevOps</h3>
+            <FontAwesomeIcon icon={faRobot} size="3x" />
+            <h3>AI-Assisted Development</h3>
             <p>
-              Having hosted about a dozen Custom Scripts with Acxess Financial I
-              was solely responsible with maintaining the entire CI/CD Pipeline
-              for my each of my automation instances.
+              I build AI into the development process itself — integrating coding
+              agents (Anthropic Claude) for code generation and refactoring,
+              turning prototypes into detailed specs and prompts, and automating
+              test creation. This agentic workflow has cut feature delivery time
+              by ~50% while raising code quality, with me acting as the quality
+              backstop on everything that ships.
             </p>
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>
@@ -77,16 +88,14 @@ function Expertise() {
           </div>
 
           <div className="skill">
-            <FontAwesomeIcon icon={faJs} size="3x" />
-            <h3>Automation</h3>
+            <FontAwesomeIcon icon={faAws} size="3x" />
+            <h3>DevOps & Observability</h3>
             <p>
-              One of the many hats I wore at Axcess Financial was Automation
-              Engineering, along with Full Stack Web Development and DevOps. My
-              role included my writing scripts with Vanilla JavaScript,
-              Node-Red, and Selenium. These custom Automations would traverse
-              UI's and API's, scraping data from each instance and present it in
-              an internal React/ASP .Net application also built and maintained
-              by me.
+              I own delivery beyond the code: automated CI/CD pipelines with
+              GitHub Actions deploying to AWS with zero-downtime releases, plus
+              testing and observability (CloudWatch, Grafana) baked in. At Axcess
+              Financial I built and maintained the full CI/CD pipeline for a fleet
+              of automation instances I wrote and ran myself.
             </p>
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>
